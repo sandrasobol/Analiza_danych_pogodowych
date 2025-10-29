@@ -1,15 +1,25 @@
-# Analiza_danych_pogodowych
-Projekt przedstawia analizę danych meteorologicznych (temperatura i opady) z wybranych stacji w Małopolsce na podstawie danych IMGW.   Wykorzystano dane ze stacji: - **Zakopane** - **Tarnów** - **Kasprowy Wierch**
+## Weather_Data_Analysis
 
-Analiza obejmuje:  
-- przygotowanie i czyszczenie danych,  
-- analizę statystyczną (korelacje, testy istotności),  
-- wizualizacje czasowe i porównawcze,  
-- analizę PCA i wykresy radarowe.  
+The project presents an analysis of meteorological data (temperature and precipitation) from selected stations in the Małopolska region based on IMGW data. The data comes from the following stations:
 
-## ⚙️ Wykorzystane biblioteki R  
-Projekt korzysta z następujących pakietów:
-```r
+Zakopane
+
+Tarnów
+
+Kasprowy Wierch
+
+The analysis includes:
+
+data preparation and cleaning,
+
+statistical analysis (correlations, significance tests),
+
+temporal and comparative visualizations,
+
+PCA analysis and radar charts.
+⚙️ Used R Libraries
+
+The project uses the following packages:
 library(ggplot2)
 library(dplyr)
 library(tidyr)
@@ -17,3 +27,5 @@ library(ggpubr)
 library(corrplot)
 library(fmsb)
 library(PerformanceAnalytics)
+
+
